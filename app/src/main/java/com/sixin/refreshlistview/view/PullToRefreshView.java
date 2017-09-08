@@ -262,7 +262,6 @@ public class PullToRefreshView extends LinearLayout implements View.OnTouchListe
      * */
     private boolean adjustAbleToPull(){
         boolean ableToPull = false;
-        // TODO: 2017/9/6 分析listView中的getChildAt方法以及getTop方法
         View child = mListView.getChildAt(0);
         int position = mListView.getFirstVisiblePosition();
         //当listView第一个子控件可视并且子控件的top=0的时候，并且头部控件完全不可视的情况下，可以下拉
