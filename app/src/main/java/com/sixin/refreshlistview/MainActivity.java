@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    // TODO: 2017/9/8 提供自定义属性、提供上拉加载更多功能 、生成jar包
     private PullToRefreshView mListView;
     private List<String> mData = new ArrayList<>();
 
